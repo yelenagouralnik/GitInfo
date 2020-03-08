@@ -27,3 +27,10 @@ You will get an error message if you try to delete a branch that has unmerged co
 3. add to stage and commit changes
 4. switch back to the previous brench
 5. file in editor changes based on a branch 
+
+## git diff between two branches
+    ```
+    git diff <branch1> <branch2>
+    git diff mater ticket1
+    ```
+    
