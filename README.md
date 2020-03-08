@@ -12,11 +12,11 @@ git diff
 ```git
 git diff --staged
 ```
-###git log
+### git log
 git log --stage
-###commit message rules
+### commit message rules
 https://chris.beams.io/posts/git-commit/
-###To stop file from being tracked by git
+### To stop file from being tracked by git
 ```
 git rm --cached filename
 ```
