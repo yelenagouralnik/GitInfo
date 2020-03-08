@@ -23,3 +23,9 @@ git rm --cached filename
 http://git-school.github.io/visualizing-git/
 ### Checking out new branch
  `git checkout -b new_branch`
+###Checking out new branchS
+ `git checkout -b new_branch`
+
+ ###switching between branches
+ If there are files that are not staged, we can stash files in a working branch.
+ `git stash`
