@@ -21,7 +21,7 @@ https://chris.beams.io/posts/git-commit/
 git rm --cached filename
 ```
 http://git-school.github.io/visualizing-git/
-###Checking out new branchS
+### Checking out new branchS
  `git checkout -b new_branch`
  `git stash show`
  `git stash pop`
