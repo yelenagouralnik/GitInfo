@@ -29,3 +29,4 @@ http://git-school.github.io/visualizing-git/
  `git stash`
  `git stash show`
  `git stash pop`
+ `git stash`
