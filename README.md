@@ -26,7 +26,12 @@ http://git-school.github.io/visualizing-git/
 
  ### switching between branches
  If there are files that are not staged, we can stash files in a working branch.
+<<<<<<< Updated upstream
  `git stash`
  `git stash show`
  `git stash pop`
  `git stash`
+ `git stash`
+=======
+ `git stash`
+>>>>>>> Stashed changes
