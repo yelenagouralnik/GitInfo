@@ -1,10 +1,20 @@
-Rebasing is to cleanup local history
-Increase accuracy and quality
-Do not use rebase on a public branch. 
+**What is rebasing?**
+1. Rebasing is to cleanup local history
+1. Increase accuracy and quality
+1. Do not use rebase on a public branch. 
+
+**Rebase Branch from Master**
+
+1. add first file then commit
+1. add second file then commit
+
 
 branch off master
-add first file then commit
-add second file then commit
+```bash
 git commit -a -m "comment a"
-
 git merge-base new_branch master
+```
+**Cherry picking**
+<p>making copies of commits into various branches</p>
+
+

@@ -30,8 +30,3 @@ http://git-school.github.io/visualizing-git/
  `git stash show`
  `git stash pop`
 
-```mermaid 
-graph TD;
-A --> B
-
-```
