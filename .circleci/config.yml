@@ -10,4 +10,15 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
+      build:
+        docker:
+          - image: circleci/ruby:2.4.1-node-browsers
+        steps:
+          - checkout
+          - run:
+              name: Greeting
+              command: echo Hello, world.
+          - run: 
+              name: Print the Current Time
+              command: date
       - welcome/run
