@@ -2,6 +2,8 @@
 version: 2.1
 # Use a package of configuration called an orb.
 # Run the welcome/run job in its own container
+orbs:
+  ruby: circleci/ruby@0.1.2 
 jobs:
   build:
      docker:
