@@ -21,4 +21,3 @@ workflows:
           - run: 
               name: Print the Current Time
               command: date
-      - welcome/run
