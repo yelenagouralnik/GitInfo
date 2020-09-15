@@ -10,10 +10,10 @@ jobs:
        - image: circleci/ruby:2.4.1-node-browsers
      steps:
        - checkout
-        - run:
+       - run:
           name: Which bundler?
           command: bundle -v
-        - ruby/bundle-install
+       - ruby/bundle-install
        - run:
           name: build dependencies
           command: bundle install
