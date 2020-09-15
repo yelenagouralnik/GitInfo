@@ -8,6 +8,7 @@ jobs:
   build:
      docker:
        - image: circleci/ruby:2.4.1-node-browsers
+     executor: ruby/default
      steps:
        - checkout
        - run:
