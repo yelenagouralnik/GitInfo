@@ -2,6 +2,8 @@
 GitTrainingIngo
 ```git
 git config --global color.ui true
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
 git log --pretty=oneline
 git log --pretty=format:"%h %ad- %s [%an]"
 git status --short
